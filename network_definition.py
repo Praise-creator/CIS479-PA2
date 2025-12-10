@@ -12,10 +12,10 @@ P_EARTHQUAKE = {
 
 # P(Alarm | Burglary, Earthquake)
 P_ALARM = {
-    (True, True): 0.7,    # P(A=true | B=true, E=true)
-    (True, False): 0.01,   # P(A=true | B=true, E=false)
-    (False, True): 0.7,   # P(A=true | B=false, E=true)
-    (False, False): 0.01  # P(A=true | B=false, E=false)
+    (True, True): 0.95,    # P(A=true | B=true, E=true)
+    (True, False): 0.94,   # P(A=true | B=true, E=false)
+    (False, True): 0.29,   # P(A=true | B=false, E=true)
+    (False, False): 0.001  # P(A=true | B=false, E=false)
 }
 
 # P(JohnCalls | Alarm)
