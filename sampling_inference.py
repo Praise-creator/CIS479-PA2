@@ -1,4 +1,5 @@
 import random
+import itertools
 from network_definition import NODES, PARENTS
 from bayes_network import get_probability, get_all_parent_values
 

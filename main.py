@@ -170,7 +170,7 @@ def analyze_specific_cases():
         }
     ]
     
-    sample_sizes = [1, 10, 100, 1000, 10000]
+    sample_sizes = [10, 50, 100, 200, 500, 1000, 10000]
     
     for case_idx, case in enumerate(cases, 1):
         print(f"\n{'='*60}")
@@ -296,7 +296,7 @@ def main():
     print("Network: Burglary-Earthquake-Alarm (from Russell & Norvig 4th ed, Figure 13.2)")
     print("CPT values from textbook:")
     print("  P(B) = 0.001, P(E) = 0.002")
-    print("  P(A|B,E): B=t,E=t:0.95, B=t,E=f:0.94, B=f,E=t:0.29, B=f,E=f:0.001")
+    print("  P(A|B,E): B=t,E=t:0.70, B=t,E=f:0.01, B=f,E=t:0.70, B=f,E=f:0.01")
     print("  P(J|A): A=t:0.90, A=f:0.05")
     print("  P(M|A): A=t:0.70, A=f:0.01")
     
